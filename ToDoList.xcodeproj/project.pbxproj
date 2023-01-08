@@ -11,6 +11,11 @@
 		49A7B1E72969CF4A005A2331 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7B1E62969CF4A005A2331 /* ContentView.swift */; };
 		49A7B1E92969CF4D005A2331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A7B1E82969CF4D005A2331 /* Assets.xcassets */; };
 		49A7B1EC2969CF4D005A2331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A7B1EB2969CF4D005A2331 /* Preview Assets.xcassets */; };
+		49A7B1F32969D0C4005A2331 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7B1F22969D0C4005A2331 /* ToDoListView.swift */; };
+		49A7B1F52969E5D3005A2331 /* ToDoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7B1F42969E5D3005A2331 /* ToDoDetailView.swift */; };
+		49A7B1F72969F977005A2331 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7B1F62969F977005A2331 /* ExampleView.swift */; };
+		49BCE74F296B368E005E55C2 /* ToDoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BCE74E296B368E005E55C2 /* ToDoRow.swift */; };
+		49BCE751296B370E005E55C2 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BCE750296B370E005E55C2 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		49A7B1E62969CF4A005A2331 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49A7B1E82969CF4D005A2331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A7B1EB2969CF4D005A2331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49A7B1F22969D0C4005A2331 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		49A7B1F42969E5D3005A2331 /* ToDoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailView.swift; sourceTree = "<group>"; };
+		49A7B1F62969F977005A2331 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		49BCE74E296B368E005E55C2 /* ToDoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRow.swift; sourceTree = "<group>"; };
+		49BCE750296B370E005E55C2 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,13 @@
 		49A7B1E32969CF4A005A2331 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				49BCE752296B3B49005E55C2 /* Views */,
+				49BCE74B296B354C005E55C2 /* Model */,
 				49A7B1E42969CF4A005A2331 /* ToDoListApp.swift */,
 				49A7B1E62969CF4A005A2331 /* ContentView.swift */,
 				49A7B1E82969CF4D005A2331 /* Assets.xcassets */,
 				49A7B1EA2969CF4D005A2331 /* Preview Content */,
+				49A7B1F62969F977005A2331 /* ExampleView.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -65,6 +78,24 @@
 				49A7B1EB2969CF4D005A2331 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49BCE74B296B354C005E55C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49BCE750296B370E005E55C2 /* ToDoItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49BCE752296B3B49005E55C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49BCE74E296B368E005E55C2 /* ToDoRow.swift */,
+				49A7B1F22969D0C4005A2331 /* ToDoListView.swift */,
+				49A7B1F42969E5D3005A2331 /* ToDoDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +170,11 @@
 			files = (
 				49A7B1E72969CF4A005A2331 /* ContentView.swift in Sources */,
 				49A7B1E52969CF4A005A2331 /* ToDoListApp.swift in Sources */,
+				49BCE751296B370E005E55C2 /* ToDoItem.swift in Sources */,
+				49A7B1F32969D0C4005A2331 /* ToDoListView.swift in Sources */,
+				49A7B1F52969E5D3005A2331 /* ToDoDetailView.swift in Sources */,
+				49BCE74F296B368E005E55C2 /* ToDoRow.swift in Sources */,
+				49A7B1F72969F977005A2331 /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
